@@ -1,3 +1,10 @@
+div#container
+{
+   width: 1200px;
+   position: relative;
+   margin: 0 auto 0 auto;
+   text-align: left;
+}
 body
 {
    background-color: #FFFFFF;
@@ -7,24 +14,70 @@ body
    font-size: 13px;
    line-height: 1.1875;
    margin: 0;
-   padding: 0;
+   text-align: center;
+}
+#Layer4
+{
+   background-color: transparent;
+   background-image: url(images/kb_1200x800.png);
+   background-repeat: repeat;
+   background-position: left top;
+   background-attachment: fixed;
+   background-position: 50% 0;
+   background-size: cover;
 }
 #Layer1
 {
-   background-color: #505050;
-   background-image: none;
-   border: 1px #CCCCCC solid;
-}
-#wb_Text1 
-{
    background-color: transparent;
-   background-image: none;
-   border: 0px #000000 solid;
-   padding: 0;
-   margin: 0;
-   text-align: left;
+   background-image: url(images/index_Layer1_bkgrnd.png);
+   background-repeat: repeat;
+   background-position: left top;
 }
 #wb_Text1 div
 {
    text-align: left;
+}
+#wb_Text2 div
+{
+   text-align: left;
+}
+#Layer2
+{
+   background-color: transparent;
+   background-image: none;
+}
+#Layer3
+{
+   background-color: transparent;
+   background-image: url(images/index_Layer3_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+}
+#Layer5
+{
+   background-color: transparent;
+   background-image: url(images/index_Layer5_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+}
+#Layer6
+{
+   background-color: transparent;
+   background-image: url(images/index_Layer6_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+}
+#Layer7
+{
+   background-color: transparent;
+   background-image: url(images/index_Layer7_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
+}
+#Layer8
+{
+   background-color: transparent;
+   background-image: url(images/index_Layer8_bkgrnd.png);
+   background-repeat: repeat-x;
+   background-position: left top;
 }
